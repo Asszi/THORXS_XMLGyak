@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xsl/OB_orarend.xsl"?>
+<?xml-model href="OB_orarend.dtd" type="application/xml-dtd"?>
+<orarend>
+    <ora id="ora_1" tipus="konzultacio">
+        <targy>Adatkezeles XML-ben</targy>
+        <idopont>
+            <nap>2021.09.24</nap>
+            <tol>12:30</tol>
+            <ig>15:50</ig>
+        </idopont>
+        <helyszin>In/202</helyszin>
+        <oktato>Dr. Bednarik Laszlo</oktato>
+        <szak>Mernok informatikus</szak>
+    </ora>
+
+    <ora id="ora_2" tipus="konzultacio">
+        <targy>Adatkezeles XML-ben</targy>
+        <idopont>
+            <nap>2021.10.01</nap>
+            <tol>12:30</tol>
+            <ig>15:50</ig>
+        </idopont>
+        <helyszin>In/202</helyszin>
+        <oktato>Dr. Bednarik Laszlo</oktato>
+        <szak>Mernok informatikus</szak>
+    </ora>
+
+    <ora id="ora_3" tipus="konzultacio">
+        <targy>Adatkezeles XML-ben</targy>
+        <idopont>
+            <nap>2021.11.19</nap>
+            <tol>12:30</tol>
+            <ig>15:50</ig>
+        </idopont>
+        <helyszin>In/202</helyszin>
+        <oktato>Dr. Bednarik Laszlo</oktato>
+        <szak>Mernok informatikus</szak>
+    </ora>
+
+    <ora id="ora_4" tipus="konzultacio">
+        <targy>Adatkezeles XML-ben</targy>
+        <idopont>
+            <nap>2021.11.26</nap>
+            <tol>16:00</tol>
+            <ig>19:30</ig>
+        </idopont>
+        <helyszin>In/202</helyszin>
+        <oktato>Dr. Bednarik Laszlo</oktato>
+        <szak>Mernok informatikus</szak>
+    </ora>
+</orarend>

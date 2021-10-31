@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<konferencia>
+    <cim>TryHackMe 101</cim>
+    <hallgatok>
+        <hallgato id="1">
+            <nev>Zsakos Frodo</nev>
+            <lakcim>1001 Kozepfolde Megye u. 7.</lakcim>
+        </hallgato>
+        <hallgato id="2">
+            <nev>Csavardi Samu</nev>
+            <lakcim>1001 Kozepfolde Masodik Reggeli u. 19.</lakcim>
+        </hallgato>
+        <hallgato id="3">
+            <nev>Szaruman Janos</nev>
+            <lakcim>1666 Vasudvar Uruk u. 1.</lakcim>
+        </hallgato>
+    </hallgatok>
+    <helyszin>Pajkos poni fogado</helyszin>
+    <eloado>
+        <nev>Feher Gandalf</nev>
+        <adoszam>101102103</adoszam>
+        <lakcim>1337 Isengard Zoldlomb u. 6.</lakcim>
+    </eloado>
+    <datum>2022.01.07.</datum>
+</konferencia>
