@@ -1,0 +1,6 @@
+<!ELEMENT cats (cat*)>
+<!ELEMENT cat (name, age, breed)>
+<!ATTLIST cat id ID #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT breed (#PCDATA)>

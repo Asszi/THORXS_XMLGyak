@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="OB_orarend.dtd" type="application/xml-dtd"?>
+<?xml-model href="../THORXS_1001/OB_orarend.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
 <orarend>
     <ora id="ora_1" tipus="konzultacio">
         <targy>Adatkezeles XML-ben</targy>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="nevjegykartyak">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="nevjegykartya">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nev" type="xs:string" />
+              <xs:element name="ceg">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="cim">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="iranyitoszam" type="xs:int" />
+                          <xs:element name="varos" type="xs:string" />
+                          <xs:element name="utca" type="xs:string" />
+                          <xs:element name="hazszam" type="xs:int" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="nev" type="xs:string" />
+                    <xs:element name="telefonszam">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:int">
+                            <xs:attribute name="korzet" type="xs:int" use="required" />
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="weblap" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="beosztas" type="xs:string" />
+              <xs:element name="telefonszam">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:int">
+                      <xs:attribute name="korzet" type="xs:int" use="required" />
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="email" type="xs:string" />
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:string" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

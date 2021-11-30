@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="OB_nevjegykartya.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<nevjegykartyak>
+    <nevjegykartya id="nevjegykartya_1">
+        <nev>Gipsz Jakab</nev>
+        <ceg>
+            <cim>
+                <iranyitoszam>9999</iranyitoszam>
+                <varos>Paszujfalva</varos>
+                <utca>Arany Janos u.</utca>
+                <hazszam>3</hazszam>
+            </cim>
+            <nev>Fiktiv Ceg Kft.</nev>
+            <telefonszam korzet="46">445675</telefonszam>
+            <weblap>http://fiktivceg.hu</weblap>
+        </ceg>
+        <beosztas>CEO</beosztas>
+        <telefonszam korzet="47">333456</telefonszam>
+        <email>gipsz.jakab@fiktivceg.hu</email>
+    </nevjegykartya>
+</nevjegykartyak>

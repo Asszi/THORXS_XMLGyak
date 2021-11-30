@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="cats.dtd" type="application/xml-dtd"?>
+<?xml-model href="cats.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<cats>
+    <cat id="c_1">
+        <name>Kokusz</name>
+        <age>3</age>
+        <breed>Perzsa</breed>
+    </cat>
+    <cat id="c_2">
+        <name>Napsugar</name>
+        <age>2</age>
+        <breed>Sziama</breed>
+    </cat>
+    <cat id="c_3">
+        <name>Lucifer</name>
+        <age>3</age>
+        <breed>Oroszkek</breed>
+    </cat>
+</cats>

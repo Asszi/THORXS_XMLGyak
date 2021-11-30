@@ -27,7 +27,7 @@
                             </tr>
                         </xsl:for-each>
                     </table>
-                    <b>Orehovszki Balazs</b>
+                    <b>Keszitette: Orehovszki Balazs</b>
                 </center>
             </body>
         </html>

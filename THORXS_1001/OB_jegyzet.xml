@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="OB_jegyzet.dtd" type="application/xml-dtd"?>
+<?xml-model href="OB_jegyzet.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<jegyzet>
+    <to>Hallgato neve</to>
+    <from>Masik hallgato neve</from>
+    <heading>Emlekezteto</heading>
+    <body>Ne felejtsd el, amit megbeszeltunk!</body>
+</jegyzet>
