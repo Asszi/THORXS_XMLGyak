@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database xmlns="thorxs"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="thorxs XMLSchemaTHORXS.xsd">
+    <libraries>
+        <library id="1">
+            <name>Test Library</name>
+            <full_address>
+                <country>Hungary</country>
+                <zip>3980</zip>
+                <city>Satoraljaujhely</city>
+                <address>Petofi ut. 4.</address>
+            </full_address>
+            <books>
+                <book idref="1" />
+            </books>
+        </library>
+    </libraries>
+
+    <books>
+        <book id="1">
+            <title>The Book</title>
+            <isbn>1254386759283</isbn>
+            <publish_date>2020-05-01</publish_date>
+            <authors>
+                <author idref="1" />
+            </authors>
+            <ratings>
+                <rating idref="1" />
+            </ratings>
+        </book>
+        <book id="1">
+            <title>Another Book</title>
+            <isbn>1254336759583</isbn>
+            <publish_date>2021-05-01</publish_date>
+            <authors>
+                <author idref="2" />
+                <author idref="3" />
+            </authors>
+            <ratings>
+                <rating idref="2" />
+                <rating idref="3" />
+            </ratings>
+        </book>
+    </books>
+
+    <ratings>
+        <rating id="1">
+            <name>randomcommenter</name>
+            <comment>Very good! Best book ever!</comment>
+            <value>5.0</value>
+            <date>2021-12-12</date>
+        </rating>
+        <rating id="2">
+            <name>user123</name>
+            <comment>It was okay</comment>
+            <value>4.1</value>
+            <date>2021-11-03</date>
+        </rating>
+        <rating id="3">
+            <name>someoneee</name>
+            <comment>Interesting</comment>
+            <value>4.5</value>
+            <date>2021-05-12</date>
+        </rating>
+    </ratings>
+
+    <authors>
+        <author id="1">
+            <name>
+                <first_name>Elek</first_name>
+                <last_name>Teszt</last_name>
+            </name>
+        </author>
+        <author id="2">
+            <name>
+                <first_name>Bela</first_name>
+                <last_name>Kiss</last_name>
+            </name>
+        </author>
+        <author id="3">
+            <name>
+                <first_name>Alan</first_name>
+                <last_name>Poe</last_name>
+            </name>
+        </author>
+    </authors>
+</database>
